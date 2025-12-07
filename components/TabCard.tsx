@@ -252,7 +252,7 @@ export default function TabCard() {
                 <div className="flex flex-col space-y-2">
                   <label className="text-sm">Phone</label>
                   <input
-                    type="number"
+                    type="phone"
                     value={formData.phone}
                     onChange={(e) =>
                       setFormData({ ...formData, phone: e.target.value })

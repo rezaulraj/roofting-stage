@@ -68,7 +68,7 @@ export default function TabCard() {
   };
 
   return (
-    <div className="bg-linear-to-t h-[400px] from-[#2A2A2A]/30 to-[#2A2A2A]/10 -mt-42 relative z-20">
+    <div className="bg-linear-to-t h-auto md:h-[400px] from-[#2A2A2A]/30 to-[#2A2A2A]/10 -mt-42 relative z-20">
       <div className="max-w-[967px] mx-auto h-auto md:h-[505px] relative -top-28 bg-[#2A2A2A] shadow-2xl border border-[#E1E1E6] rounded-md p-4 space-y-2 flex flex-col">
         <div>
           <h2 className="text-center text-2xl md:text-3xl lg:text-[32px] font-inter font-bold py-6">
@@ -291,7 +291,7 @@ export default function TabCard() {
           </div>
         </div>
 
-        <div className="flex items-center justify-between mt-auto pt-4 border-t border-gray-700">
+        <div className="flex items-center justify-between mt-auto pt-4">
           <button
             onClick={goPrev}
             disabled={activeTab === 1}

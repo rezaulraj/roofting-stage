@@ -3,7 +3,10 @@ import Image from "next/image";
 
 export default function HeroPage() {
   return (
-    <section className="relative w-full min-h-auto flex items-center justify-center overflow-hidden">
+    <section
+      id="hero"
+      className="relative w-full min-h-auto flex items-center justify-center overflow-hidden"
+    >
       <div className="absolute inset-0 z-0">
         <Image
           src="/images/bgherocenter.png"

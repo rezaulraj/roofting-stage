@@ -3,7 +3,7 @@ import Image from "next/image";
 
 export default function QulifiedLead() {
   return (
-    <div className="relative w-full min-h-screen bg-[#0a0a0a] overflow-hidden">
+    <section className="relative w-full min-h-screen bg-[#0a0a0a] overflow-hidden">
       <div className="absolute -top-44 left-0 w-full h-full z-10">
         <Image
           src="/images/leftImage.png"
@@ -165,6 +165,6 @@ export default function QulifiedLead() {
           </div>
         </div>
       </div>
-    </div>
+    </section>
   );
 }

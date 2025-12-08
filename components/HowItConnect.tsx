@@ -2,7 +2,10 @@ import Image from "next/image";
 
 export default function HowItConnect() {
   return (
-    <section className="relative w-full h-auto md:min-h-[691px] flex items-center justify-center overflow-hidden py-10 md:py-20">
+    <section
+      id="about"
+      className="relative w-full h-auto md:min-h-[691px] flex items-center justify-center overflow-hidden py-10 md:py-20"
+    >
       <div className="absolute inset-0 flex">
         <div className="relative flex-1">
           <Image
@@ -38,8 +41,8 @@ export default function HowItConnect() {
           </span>
         </div>
         <h1 className="text-[48px] font-semibold font-inter text-center mb-8 text-white">
-          Connect with Your <span className="italic font-normal font-serif">Ideal</span>{" "}
-          Customers
+          Connect with Your{" "}
+          <span className="italic font-normal font-serif">Ideal</span> Customers
         </h1>
         <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6">
           <div className="flex flex-col bg-[#0D0D0D] px-6 py-8 border border-[#2A2A2A] space-y-6 rounded-2xl h-full">

@@ -8,11 +8,11 @@ export default function Header() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
 
   const navLinks = [
-    { name: "Home", href: "/" },
-    { name: "Services", href: "/services" },
-    { name: "Case Studies", href: "/case-studies" },
-    { name: "About", href: "/about" },
-    { name: "FAQ", href: "/faq" },
+    { name: "Home", href: "#hero" },
+    { name: "Services", href: "#services" },
+    { name: "Case Studies", href: "#case-studies" },
+    { name: "About", href: "#about" },
+    { name: "FAQ", href: "#faq" },
   ];
 
   const toggleMenu = () => {
@@ -43,7 +43,7 @@ export default function Header() {
         <div className="container mx-auto">
           <div className="hidden md:flex w-full items-center justify-center">
             <div className="flex items-center gap-10 bg-[#0A0A0A7A]/48 shadow-4xl border border-gray-700 rounded-xl px-6 py-3">
-              <Link href="/">
+              <Link href="#">
                 <div className="relative">
                   <Image
                     src="/logo.png"
@@ -70,7 +70,7 @@ export default function Header() {
             </div>
           </div>
           <div className="md:hidden flex items-center justify-between">
-            <Link href="/" className="shrink-0">
+            <Link href="#" className="shrink-0">
               <div className="relative w-32 h-12">
                 <Image
                   src="/logo.png"

@@ -3,7 +3,10 @@ import React from "react";
 
 export default function CaseStudy() {
   return (
-    <section className="relative w-full h-auto md:min-h-[600px] flex items-center justify-center overflow-hidden py-10 md:py-20">
+    <section
+      id="case-studies"
+      className="relative w-full h-auto md:min-h-[600px] flex items-center justify-center overflow-hidden py-10 md:py-20"
+    >
       <div className="absolute inset-0 flex">
         <div className="relative flex-1">
           <Image
